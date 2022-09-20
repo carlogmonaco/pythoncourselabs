@@ -16,3 +16,6 @@ print('p' in 'python')
 print('a' in 'python')
 print('py' in 'python')
 print('pn' not in 'python')
+
+print('p' in 'python' and 'n' in 'python')
+print('p' in 'python' or 'c' in 'python')
