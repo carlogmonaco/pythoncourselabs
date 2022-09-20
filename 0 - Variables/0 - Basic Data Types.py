@@ -42,5 +42,10 @@ print("E:")
 print(e)
 print(et)
 
+
 # What's the type of "1"?
+h = "1"
+print(f"the type of a={a} is {type(a)}\nthe type of b={b} is {type(b)} \nthe type of h={h} is {type(h)} ")
+print(f"L'id di h={h} è {id(h)} ed ha tipo {type(h)}")
+
 # ToDo: Print Function with IDs too.
