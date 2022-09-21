@@ -19,7 +19,7 @@ print(f"s: {s}; len(s): {len(s)}")
 print(f"l: {l}; len(l): {len(l)}")
 
 s += " is a programming language"
-l += [10, 11, 12, 13, 14, 15]
+l += [10, 11, 12, 13, 14, 15] #effettua l'extend della lista
 
 print(f"s: {s}; len(s): {len(s)}")
 print(f"l: {l}; len(l): {len(l)}")
@@ -39,8 +39,13 @@ print(f"s[::-3]: {s[:-3]}")
 print(f"l[::-3]: {l[:-3]}")
 
 ll = [[0, 1], [2, 3], [4, 5]]
-print(f"ll: {ll}; len(ll {len(ll)}")
+print(f"ll: {ll}; len(ll) = {len(ll)}")
 print(f"ll[0]: {ll[0]}; type(ll[0]): {type(ll[0])}")
 print(f"ll[0][0]: {ll[0][0]}")
 
 # ToDo: read a string from a text file and print its last 10 chars
+
+s = 'a'
+while not len(s) > 10:
+    s = input('inserire una stringa di almeno dieci caratteri:')
+print(f"gli ultimi 10 caratteri di {s} sono {s[-10:]}")

@@ -91,9 +91,18 @@ textLower = text.lower()
 print(f"######## First 100 textLower chars########\n{textLower[0:100]}")
 textReplace = text.replace('Ita', 'ITA')
 print(f"######## First 100 textReplace chars########\n{textReplace[0:100]}")
-print(f"######## find 'Python' in text########\n{text.find('Python')}")
+print(f"######## find 'Germania' in text########\n{text.find('Germania')}")
 print(f"######## find 'Ita' in text ########\n{text.find('Ita')}")
-print(f"######## count 'Python' in text ########\n{text.count('Python')}")
-print(f"######## count 'Ita' in text ########\n{text.count('Ita')}")
+print(f"######## count 'Germania' in text ########\n{text.count('Germania')}")
+print(f"######## count 'Italia' in text ########\n{text.count('Italia')}")
 
 # ToDo: Make a def that returns how many instances of some input words are present in an input text.
+
+chiave = None
+while not chiave:
+    chiave = input("inserisci la chiave di ricerca:\n")
+print(f"ricerca della parola '{chiave}' in corso...")
+print(f"la parola {chiave} è presente {text.lower().count(chiave.lower())} volte")
+
+
+

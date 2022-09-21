@@ -16,17 +16,19 @@ x = 1
 y = 2
 z = 3
 
+x = int(input("inserire un intero per verificare se sia pari a 0\n x = "))
 if x != 0:
-    print("x is not 0")
-
+    print(f"x = {x} is not 0")
+y = int(input("inserire un intero per ferificare se sia o non sia 0\n y = "))
 if y == 0:
-    print("y is 0")
+    print(f"y = {y} is 0")
 else:
-    print("y is not 0")
-
-if z is 0:
-    print("z is 0")
-elif z == 100:
-    print("z is not 0, but z is 100")
+    print(f"y = {y} is not 0")
+z = int(input("inserire un intero per verificarlo rispetto a 0\n z = "))
+if z == 0:
+    print(f"z={z} is 0")
+elif z > 0:
+    print(f"z={z} is greater then 0")
 else:
-    print("z is not 0 and z is not 100")
+    print(f"z={z} is smaller then 100")
+print("fine!")

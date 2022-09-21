@@ -12,7 +12,7 @@ an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express o
 See the License for the specific language governing permissions and limitations under the License
 '''
 
-l = [0, 1, 2, 3, 4, 5]
+l = [1, 2, 3, 4, 5, 6]
 for x in l:
     print(x)
 print("The end")
@@ -34,6 +34,3 @@ print('The End')
 for b in range(0, 10, 3):
     print(f"b: {b}")
 print('The End')
-
-myList = [n for n in range(0, 10) if n % 2 == 0]
-print(f"myList: {myList}")

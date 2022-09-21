@@ -12,9 +12,17 @@ an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express o
 See the License for the specific language governing permissions and limitations under the License
 '''
 
-x = 0
+# x = 0
+#
+# while x < 10:
+#     print(x)
+#     x += 1
+# print("The End")
 
-while x < 10:
-    print(x)
-    x += 1
-print("The End")
+ans = None
+
+while ans not in ['Y','n']:
+    ans = str(input('proseguire? [Y,n]'))
+print(f"hai premuto {ans}")
+
+
